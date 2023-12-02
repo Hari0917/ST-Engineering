@@ -4,22 +4,50 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-.bg-img{
-    background-image: url(../img/banner-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{
     width: 1110px;
 }
 
+
+img{
+    max-width: 100%;
+}
+
+.bg-img{
+    background-image: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bg-img h5{
+       font-size: 40px ;
+       font-weight: 500;
+       color:white ;
+}
+
+.bg-img h6{
+    font-size: 60px;
+    font-weight: bold;
+    color: white ;
+}
+
+.bg-img p{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+
 .content{
-    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .yellow{
@@ -35,25 +63,25 @@ body{
 }
 
 .sec-2 h5{
-    font-size: 20px;
-    font-weight: ;
-    color: ;
+    font-size: 15px;
+    font-weight: 400 ;
+    color: #07244b;
 }
 
 .sec-2 h6{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold ;
-    color: ;
+    color: #07244b;
 }
 
 .sec-2 .col-md-6 h3{
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 500;
     color:#19202a;
 }
 
 .sec-2 .col-md-6 p{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     color: #19202a;
 }
@@ -69,7 +97,7 @@ body{
 
 
 .sec-3 h6{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400 ;
     color: white;
     margin-top: 10px;
@@ -77,7 +105,7 @@ body{
 }
 
 .sec-3 h1{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold ;
     color: white;
     margin-bottom: 60px;
@@ -95,12 +123,11 @@ body{
     margin-right: 10px;
 }
 
-
-
 .sec-3 .col-md-2 .img{
-    height: 100px;
-    width: 100px;
     margin:25px 0px 25px 60px;
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
 }
 
 .sec-3 .col-md-2 .yellow{
@@ -109,27 +136,55 @@ body{
 }
 
 .sec-3 .col-md-2 h2{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     color: white;
 }
 
+.sec-4{
+    margin-top: 120px;
+}
+
+.sec-4 h6{
+    font-size: 15px;
+    font-weight: 400;
+    color: #07244b;
+}
+
+.sec-4 h5{
+    font-size: 35px;
+    font-weight: 400;
+    color: #07244b;
+}
+
 .sec-4 span{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
-    color: ;
+    color: #07244b;
 }
 
 .sec-4 p{
-    font-size: 18px;
-    font-weight:400;
-    color: ;
+    font-size: 17px;
+    font-weight: 500;
+    color:#19202a;
 }
 
 .sec-4 .border-img{
     margin: 130px 0px 90px 0px;
 }
 
+
+.sec-5 h6{
+    font-size:15px ;
+    font-weight: 400;
+    color: #07244b ;
+}
+
+.sec-5 h5{
+    font-size:35px ;
+    font-weight: bold;
+    color: #07244b ;
+}
 
 .sec-5 .number{
     display: flex;
@@ -143,8 +198,8 @@ body{
 .sec-5 .line{
     width:70px;
     height: 30px;
-    border-bottom: 4px solid #f6f5f4;
-   margin-left: 10px;
+    border-bottom: 4px solid #f2f1f1;
+    margin-left: 10px;
 }
 
 .sec-5 .col-md-4{
@@ -153,29 +208,27 @@ body{
 
 
 .sec-5 .card-1 p{
-    font-size: 18px ;
-    font-weight: bold ;
-    color: #6a7c93;
+    font-size: 22px;
+    font-weight: bold;
+    color: #07244b;
 }
 
 .sec-5 .card-1{
     border: 2px solid #f6f5f4;
-    padding: 15px 40px;
-    width: 370px;
+    padding: 30px;
     height: 150px;
     margin-top: 110px;
 }
 
 .sec-5 .card-2 p{
-    font-size: 18px ;
-    font-weight: bold ;
-    color: #6a7c93;
+    font-size: 22px;
+    font-weight: bold;
+    color: #07244b;
 }
 
 .sec-5 .card-2{
     border: 2px solid #f6f5f4;
-    padding: 30px 40px;
-    width: 370px;
+    padding: 30px ;
     height: 167px;
 }
 
@@ -191,15 +244,13 @@ body{
 }
 
 .sec-5 .para{
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 500;
     color: white;
     margin-top: 100px;
 }
 
 .sec-5 .btn-bg{
-    width: 420px;
-    height: 80px;
     margin: auto;
     position: relative;
     margin-top: 30px;
@@ -214,10 +265,149 @@ body{
 
 .sec-5 .btn-para h6{
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
     color:#07244b;
 }
 
-.sec-5 .bottom{
-    height: 130px;
+.foot-section{
+    background-color: #e6e9ed;
+    margin-top: 450px;
+}
+
+.foot-para h2{
+    font-size:16px ;
+    font-weight: 500;
+    color:#07244b ;
+}
+
+.foot-image{
+    width: 220px;
+    margin: auto;
+    padding:0px  0px 60px 20px;
+}
+
+.foot-shape{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    background-color: white;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+
+@media (max-width:768px) {
+    .container{
+        width: 90%;
+    }
+
+
+    .bg-img h5{
+        font-size: 25px;
+    }
+
+    .bg-img h6{
+        font-size: 35px;
+    }
+
+    .bg-img p{
+        font-size: 15px;
+    }
+
+    .sec-2 .row{
+        flex-direction: column-reverse;
+    }
+
+    .sec-2 h6{
+        font-size: 20px;
+    }
+    
+    .sec-2 .col-md-6 h3{
+        font-size: 15px;
+    }
+     
+    .sec-3 {
+        background-position: unset;
+    }
+
+    .sec-3 h1{
+        font-size: 18px;
+    }
+
+    .sec-3 .col-md-2{
+        width: 100%;
+    }
+
+    .sec-3 .box-1{
+        margin: 20px;
+    }
+
+    .sec-4 h5{
+        font-size: 25px;
+    }
+    .sec-4 span{
+        font-size: 17px;
+    }
+
+    .sec-4 .border-img{
+        margin-top: 90px;
+    }
+
+    .sec-5 h5{
+        font-size: 30px;
+    }
+
+    .sec-5 .col-md-4 img{
+        display: none;
+    }
+
+    .sec-5 .card-1{
+        width: 100%;
+        height: 167px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .sec-5 .card-2{
+        width: 100%;
+    }
+    .sec-5 .col-md-4 {
+        margin-bottom: 10px;
+    }
+    
+    .sec-5 .bg-color {
+        position: unset;
+    }
+
+    .sec-5 .para {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+
+    .sec-5 .btn-para {
+        top: 38%;
+        left: 15%;
+    }
+
+    .sec-5 .btn-para h6 {
+        font-size: 14px;
+    }
+
+    .foot-section{
+        margin-top: 70px;
+    }
+
+}
+
+
+@media (max-width:576px) {
+    
+    .container{
+        width: 90%;
+    }
+
+    .sec-3 h1 {
+        font-size: 15px;
+    }
+    .sec-4 span {
+        font-size: 15px;
+    }
 }
